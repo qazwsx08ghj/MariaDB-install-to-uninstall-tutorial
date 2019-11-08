@@ -92,7 +92,7 @@ https://mariadb.com/kb/en/library/innodb-buffer-pool/
 
 最後就是 PageSize 基本上不是很重要
 
-我也沒很在意這個東，詳細可以參考這個來源
+我也沒很在意這個東東，詳細可以參考這個來源
 
 https://mariadb.com/kb/en/library/innodb-limitations/
 
