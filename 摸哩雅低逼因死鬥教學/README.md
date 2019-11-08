@@ -5,13 +5,13 @@
 ## 第一步
 
 
-~~打開你的瀏覽器搜尋如何安裝MariaDB~~
+~~打開你的瀏覽器搜尋如何安裝 MariaDB ~~
 
 放下你手中的掃把，我會認真教的
 
 首先到 https://downloads.mariadb.org/mariadb/ 下載
 
-基本上都是用新的Series
+基本上都是用新的 Series
 
 按進去往下看會發現 mariadb-版本號-winx64.msi 按連結載下來
 
@@ -22,3 +22,5 @@
 
 
 等到下載完成就可以開始安裝 MariaDB 了
+
+
