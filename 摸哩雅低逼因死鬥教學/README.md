@@ -37,7 +37,7 @@
 
 沒用 MariaDB 賺錢就不用理了，也不會有人想看 ~~被告了才會知道(́◉◞౪◟◉‵)~~
 
-~~ 我是不知道裡面有沒有賣身契拉 ~~
+~~我是不知道裡面有沒有賣身契拉~~
 
 ![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%9B%A0%E6%AD%BB%E9%AC%A5%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/pic1.jpg)
 
