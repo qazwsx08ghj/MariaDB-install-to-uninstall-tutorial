@@ -15,7 +15,7 @@
 
 按進去往下看會發現 mariadb-版本號-winx64.msi 按連結載下來
 
-如果連dowload都看不懂那還是放棄ㄅ，這個東西太難了
+如果連 Dowload 都看不懂那還是放棄ㄅ，這個東西太難了
 
 等到下載完成就可以開始安裝 MariaDB 了
 
@@ -70,28 +70,28 @@
 
 第一個會關於你的 Server 會是啥名子，基本上我們在安裝時都會維持預設，也不會隨意去改動
 
-再來是 Port 
+再來是 `Port` 
 
-要設定這個就要先了解什麼是 port https://zh.wikipedia.org/wiki/%E9%80%9A%E8%A8%8A%E5%9F%A0
+要設定這個就要先了解什麼是 `Port` https://zh.wikipedia.org/wiki/%E9%80%9A%E8%A8%8A%E5%9F%A0
 
 維基百科基本上不講人話
 
 
 以承濬語來解釋就是你要播這個電話才可以跟這個人溝通
 
-我們要設定這個電話(port)讓寫的程式能跟 MariaDB 溝通
+我們要設定這個電話 `port` 讓寫的程式能跟 MariaDB 溝通
 
-基本上基底吃 MySQL Server 的 MariaDB 跟 MySQL 預設值就如同圖片內的 3306
+基本上基底吃 MySQL Server 的 `MariaDB` 跟 `MySQL` 預設值就如同圖片內的 `3306`
 
 
-BufferPool基本上就是大了沒差，小了有問題，會直接影響到資料庫讀取進出的速度
+`BufferPool`基本上就是大了沒差，小了有問題，會直接影響到資料庫讀取進出的速度
 
 但本肥宅玩算不少應用預設值都還沒問題，有興趣的話可以看官方文件的解釋
 
 https://mariadb.com/kb/en/library/innodb-buffer-pool/
 
 
-最後就是 PageSize 基本上不是很重要
+最後就是 `PageSize` 基本上不是很重要
 
 我也沒很在意這個東，詳細可以參考這個來源
 
@@ -113,7 +113,7 @@ https://mariadb.com/kb/en/library/innodb-limitations/
 
 如果你在啥都沒動的情況下按 是是是是是 的結束了你的安裝流程
 
-那你就將你的 MariaDB 在PC的預設路徑大概會類似
+那你就將你的 MariaDB 在 PC Windows 的預設路徑大概會類似
 
 ```
 C:\Program Files\MariaDB 10.4\bin
@@ -123,23 +123,23 @@ C:\Program Files\MariaDB 10.4\bin
 
 ![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%9B%A0%E6%AD%BB%E9%AC%A5%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/%E6%89%B9%E5%9F%83%E8%A5%BF%E5%85%AD.jpg)
 
-接著按內容->進階設定->進階->環境變數->在系統變數欄中找到Path
+接著按內容->進階設定->進階->環境變數->在系統變數欄中找到`Path`
 
 ![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%9B%A0%E6%AD%BB%E9%AC%A5%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/%E6%89%B9%E5%9F%83%E8%A5%BF7.jpg)
 
-再點個兩下進入，找空白的地方貼上 MariaDB 裏頭 mysql.exe 的資料夾路徑
+再點個兩下進入，找空白的地方貼上 `MariaDB` 裏頭含有 `mysql.exe` 的資料夾路徑
 
 ![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%9B%A0%E6%AD%BB%E9%AC%A5%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/%E6%89%B9%E5%9F%83%E8%A5%BF8.jpg)
 
-這樣就可以用 Terminal 來確認MariaDB有沒有安裝成功了
+這樣就可以用 Terminal 來確認 MariaDB 有沒有安裝成功了
 
-用 Win+S 開啟查詢，輸入 cmd 會跳出命令提示字元的方框，也就是 Terminal
+用 `Win+S` 開啟查詢，輸入 `cmd` 會跳出命令提示字元的方框，也就是 Terminal
 
-Win就是 Ctrl 跟 Alt 夾起來的那個按鍵，筆電鍵盤可能是 fn 跟 Alt 夾起來的
+`Win` 就是 `Ctrl` 跟 `Alt` 夾起來的那個按鍵，筆電鍵盤可能是 `fn` 跟 `Alt` 夾起來的
 
-或者輸入 powershell 也可以，但我沒印象是要自己加入path還是原生會加入
+或者輸入 `powershell` 也可以，但我沒印象是要自己加入path還是原生會加入
 
-本魯覺得 powershell 我比較愛用
+本魯覺得 `powershell` 我比較愛用
 
 接著輸入
 
@@ -150,13 +150,13 @@ Win就是 Ctrl 跟 Alt 夾起來的那個按鍵，筆電鍵盤可能是 fn 跟 A
 #### 可撥肥宅的踩坑筆記
 
 
-如果你跟我一樣是個三心二意的全婆俠，左擁瑪麗亞，右抱買西擴，中間Xampp建伺服器
+如果你跟我一樣是個三心二意的全婆俠，左擁瑪麗亞，右抱買西擴，中間 Xampp 建伺服器
 
 那你應該要看到這裡的可撥肥宅踩坑記
 
-基本上 MySQL 跟 MariaDB 的預設值 port 會是一樣的，都是3306的port
+基本上 MySQL 跟 MariaDB 的預設值 `Port` 會是一樣的，都是 `3306` 的 `Port`
 
-所以呢 你只要改其中一個改成 3307 的 port 就可以完成了
+所以呢 你只要改其中一個改成 `3307` 的 `Port` 就可以完成了
 
 如果你用的是 Xampp 呢
 
@@ -164,7 +164,7 @@ Win就是 Ctrl 跟 Alt 夾起來的那個按鍵，筆電鍵盤可能是 fn 跟 A
 
 ##### 阿不是阿　我就很基掰很想用Xampp裡面的MySQL阿
 
-改掉 my.ini 裏頭的 port 別跟 MariaDB 的 port 互相衝突就好了
+改掉 `my.ini` 裏頭的 `Port` 別跟 MariaDB 的 `port` 互相衝突就好了
 
-也要將 Apache -> config.inc.php 裏頭的 port 改成跟 my.ini 相同就行惹
+也要將 `Apache` -> `config.inc.php` 裏頭的 `Port` 改成跟 `my.ini` 相同就行惹
 
