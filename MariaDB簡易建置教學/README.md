@@ -162,16 +162,12 @@ Query OK, 0 rows affected (0.007 sec)
 `localhost` 這個位置意思是他可以從何處來進入 Maria醬的服務
 
 當然也可以不從 `localhost` 從其他的地方登入，詳細就交由 Maria醬的官網講解了
-
 https://mariadb.com/kb/en/library/create-user/#host-name-component
 
 再來是 ` IDENTIFIED BY '123'`
 
 這句就是， Maria醬該怎麼知道這個人不是陌生人呢?
-
-所以就以123這個密碼來識別這個人是不是文香醬的老公喔
-
-綜合上述這句的意思就是 
+就以123這個密碼來識別這個人是不是文香醬的老公喔，綜合上述這句的意思就是
 
 ```建立 使用者 '文香醬老公'@可以自'localhost'登入 怎麼分辨是不是文香醬的老公呢 由 123 這個密碼```
 
