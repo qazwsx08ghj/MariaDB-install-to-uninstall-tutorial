@@ -162,7 +162,7 @@ Query OK, 0 rows affected (0.007 sec)
 
 `localhost` 這個位置意思是他可以從何處來進入 Maria醬的服務
 
-當然也可以不從 `localhost` 從其他的地方登入，詳細就交由 Maria醬的官網講解了
+當然也可以不從 `localhost` 而是從其他的地方登入，詳細就交由 Maria醬的官網講解了
 https://mariadb.com/kb/en/library/create-user/#host-name-component
 
 再來是 ` IDENTIFIED BY '123'`
@@ -172,7 +172,7 @@ https://mariadb.com/kb/en/library/create-user/#host-name-component
 
 ```建立 使用者 '文香醬老公'@可以自'localhost'登入 怎麼分辨是不是文香醬的老公呢 由 123 這個密碼```
 
-這時候聰明的你會想提問:這是怎麼來的，和這些參數有什麼意義?
+這時候聰明的你會想提問:這是怎麼來的，和這些參數有什麼意義，語法怎摸寫R?
 
 ### **這部分完完全全可以跳過，但是我會恨你(X**
 
@@ -206,8 +206,9 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 ```For server side help, type 'help contents'```
 
-因為輸入 `\h` 只會得到跟 Maria醬溝通的方法，如果要獲得使用 Maria醬服務的方法，必須輸入 Maria醬提供的 `help contents`
-例如:
+因為輸入 `\h` 只會得到跟 Maria醬溝通的方法，如果要獲得使用 Maria醬服務的方法
+
+必須輸入 Maria醬提供的 `help contents`例如:
 
 ```
 MariaDB [(none)]> help contents
@@ -243,8 +244,6 @@ Maria醬也貼心的說了這句 `For more information, type 'help <item>', wher
 
 我們就可以知道，要知道更多這個服務的資訊我們可以輸入 `help 我想查詢的服務`
 例如:
-
-```MariaDB [(none)]> help Account Management```
 
 ```
 MariaDB [(none)]> help Account Management
@@ -297,27 +296,24 @@ GRANT ALL PRIVILEGES ON *.* TO '文香醬老公'@'localhost' ;
 
 我們接著解釋這行指令發生了什麼事情
 
-`GRANT ALL PRIVILEGES ON *.* TO '文香醬老公'@'localhost' ;`
-
 `ALL PRIVILEGES ON *.*`
 
 所謂的 `*` 就如同在SQL裡面 `Select *` 一般，選擇所有的資料庫。
 
 `.` 則可以翻譯為這個資料庫的哪一些 `Table` ，我這個例子也是使用 `*` ，表示選擇所有的 `Table`
-所以這行指令的白話意思就是指
 
+所以這行指令的白話意思就是指
 ```給予 所有可行使的權限(例如:新增，修改等權限) 在 所有的資料庫中 裡的 所有的表單 將這個權限給予 '文香醬老公'@'localhost'```
 
 如果對 `ALL PRIVILEGES` 還可以改成別的東西有興趣，想知道更多的內容都在
 https://mariadb.com/kb/en/library/grant/#global-privileges
-
 就可以知道更多可以分別給予的權限了(*´▽`*)
 
 接著就輸入離開 `\q`
 在使用新的登入帳戶，也就是剛剛 `CREATE USER` 的帳戶
 
 ```
-mysql -u 設立的帳戶名稱 -p
+mysql -u 剛剛設立的帳戶名稱 -p
 Enter Password:剛剛所設立的密碼
 ```
 例如:
@@ -335,6 +331,8 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 MariaDB [(none)]>
 ```
+
+這樣就成功了ヽ(✿ﾟ▽ﾟ)ノ
 
 [回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
 ## 第四步　建立資料庫，使用資料庫
@@ -402,13 +400,11 @@ MariaDB [(none)]>
 
 #### 一小節　CMD
 
-`cmd` 為 windows 中可以使用文字介面來操控作業系統的工具，基本上可以使用 `Win` + `R` 輸入 `cmd` 來開啟
-接著透過 `cmd` 來操作電腦中的檔案
+`cmd` 為 windows 中可以使用文字介面來操控作業系統的工具，基本上可以使用 `Win` + `R` 輸入 `cmd` 來開啟接著透過 `cmd` 來操作電腦中的檔案
 
 例如:
 在 `Python` 有寫入 `Path` 的情況下使用 `Win` + `R` 輸入 `cmd` 來開啟 Terminal
-是可以使用 `cmd` 做到簡單撰寫 `Python` 檔案的
-windows 的例子基本上預設在`C:\Users\user name\Desktop`
+是可以使用 `cmd` 做到簡單撰寫 `Python` 檔案的，例如:
 
 在 Terminal 中輸入
 
@@ -439,7 +435,7 @@ C:\Users\bbb65\Desktop\Test_dir>python TestFile.py #呼叫 Python.exe 來執行�
 hello word
 ```
 
-還有更多的玩法，但本魯實在是沒有辦法在這裡一一的介紹~~這要教到會都可以開一個禮拜兩節的選修了~~
+還有更多的玩法，但本魯實在是沒有辦法在這裡一一的介紹~~這要教到會都可以開一個禮拜兩節的課程了~~
 所以就在這放上教學文章讓有興趣的人去學習了
 https://lnpcd.blogspot.com/2012/09/00.html
 
@@ -456,10 +452,10 @@ $Excel.Visible = $True #讓這個Excel是可見的
 $Workbook = $Excel.Workbooks.Add() #開啟一個Excell 
 ```
 
-在電腦中有Excell的情況下是真的可以如此開啟一個Excell來繼續執行其他的步驟的
+在電腦中有Excell的情況下是真的可以如此開啟一個Excell來繼續執行其他的步驟
 有很多東西都可以使用 PowerShell 來達成，本魯自己也是偏向喜歡使用 Powershell的
 更多詳細的東西都在 Microsoft 的 Powershell 裡可以找到
-對這兩個都有興趣的話可以先試著看看 Powershell 功能強大也可以玩很多東西
+對這兩個都有興趣的話可以先試著看看 Powershell ，功能強大也可以玩很多東西
 https://docs.microsoft.com/zh-tw/powershell/
 
 ### 本魯的採坑日記
