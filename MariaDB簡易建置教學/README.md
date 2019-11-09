@@ -6,6 +6,12 @@
 
 + [第二步　建立使用者](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E5%BB%BA%E7%AB%8B%E4%BD%BF%E7%94%A8%E8%80%85)
 
++[第三步　讓使用者有權限](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%B8%89%E6%AD%A5%E8%AE%93%E4%BD%BF%E7%94%A8%E8%80%85%E6%9C%89%E6%AC%8A%E9%99%90)
+
++[第四步　建立資料庫，使用資料庫](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E5%9B%9B%E6%AD%A5%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB%E4%BD%BF%E7%94%A8%E8%B3%87%E6%96%99%E5%BA%AB)
+
++[第五步　Terminal 的及簡易教學區]()
+
 ## 第一步　開啟 Terminal 登入
 
 我會在最下面教學一下 `Terminal` 的極簡介紹
@@ -132,20 +138,17 @@ net start 你的 Service 名子
 
 例如:
 
-![image](
-    https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/pic1.jpg
+![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/pic1.jpg
 )
 
 那指令就會像這樣:
 
-![image](
-    https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/pic2.jpg
+![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/pic2.jpg
 )
 
 可以按下 `Ctrl` + `Alt` + `Delete` ，選擇工作管理員可以看到如下:
 
-![image](
-    https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/Pic3.jpg
+![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/Pic3.jpg
 )
 
 再重新登入一次或許就能成功囉!
@@ -456,7 +459,7 @@ MariaDB [(none)]>
 詳細 https://mariadb.com/kb/en/library/alter-database/
 
 ## **注意!!　由於 Terminal 實在有太多的應用以及方法，所以只教觀念跟簡易用法**
-## Terminal 的及簡易教學區
+## 第五步　Terminal 的及簡易教學區
 
 這邊會教到 windows 中 `CMD` 及 `powershell` 的簡單範例及差別
 
