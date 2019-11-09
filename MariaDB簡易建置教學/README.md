@@ -6,11 +6,11 @@
 
 + [第二步　建立使用者](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E5%BB%BA%E7%AB%8B%E4%BD%BF%E7%94%A8%E8%80%85)
 
-+[第三步　讓使用者有權限](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%B8%89%E6%AD%A5%E8%AE%93%E4%BD%BF%E7%94%A8%E8%80%85%E6%9C%89%E6%AC%8A%E9%99%90)
++ [第三步　讓使用者有權限](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%B8%89%E6%AD%A5%E8%AE%93%E4%BD%BF%E7%94%A8%E8%80%85%E6%9C%89%E6%AC%8A%E9%99%90)
 
-+[第四步　建立資料庫，使用資料庫](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E5%9B%9B%E6%AD%A5%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB%E4%BD%BF%E7%94%A8%E8%B3%87%E6%96%99%E5%BA%AB)
++ [第四步　建立資料庫，使用資料庫](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E5%9B%9B%E6%AD%A5%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB%E4%BD%BF%E7%94%A8%E8%B3%87%E6%96%99%E5%BA%AB)
 
-+[第五步　Terminal 的及簡易教學區]()
++ [第五步　Terminal 的及簡易教學區](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%BA%94%E6%AD%A5terminal-%E7%9A%84%E5%8F%8A%E7%B0%A1%E6%98%93%E6%95%99%E5%AD%B8%E5%8D%80)
 
 ## 第一步　開啟 Terminal 登入
 
