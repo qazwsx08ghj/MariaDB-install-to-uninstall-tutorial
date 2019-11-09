@@ -37,7 +37,7 @@
 
 沒用 MariaDB 賺錢就不用理了，也不會有人想看 ~~被告了才會知道(́◉◞౪◟◉‵)~~
 
-~~我是不知道裡面有沒有賣身契拉~~
+~~ 我是不知道裡面有沒有賣身契拉~~
 
 ![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%9B%A0%E6%AD%BB%E9%AC%A5%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/pic1.jpg)
 
@@ -66,6 +66,7 @@
 
 ### 其之四　設定 ServerName Port BufferPool PageSize
 
+![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/%E6%91%B8%E5%93%A9%E9%9B%85%E4%BD%8E%E9%80%BC%E5%9B%A0%E6%AD%BB%E9%AC%A5%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/pic4.jpg)
 
 第一個會關於你的 Server 會是啥名子，基本上我們在安裝時都會維持預設，也不會隨意去改動
 
@@ -92,7 +93,7 @@ https://mariadb.com/kb/en/library/innodb-buffer-pool/
 
 最後就是 PageSize 基本上不是很重要
 
-我也沒很在意這個東東，詳細可以參考這個來源
+我也沒很在意這個東，詳細可以參考這個來源
 
 https://mariadb.com/kb/en/library/innodb-limitations/
 
@@ -132,17 +133,21 @@ C:\Program Files\MariaDB 10.4\bin
 
 這樣就可以用 Terminal 來確認MariaDB有沒有安裝成功了
 
-用 Ctrl+S 開啟查詢，輸入 cmd 會看到命令提示字元
+用 Win+S 開啟查詢，輸入 cmd 會跳出命令提示字元的方框，也就是 Terminal
 
-輸入
+Win就是 Ctrl 跟 Alt 夾起來的那個按鍵，筆電鍵盤可能是 fn 跟 Alt 夾起來的
 
-```
-mysql -V
-```
+或者輸入 powershell 也可以，但我沒印象是要自己加入path還是原生會加入
+
+本魯覺得 powershell 我比較愛用
+
+接著輸入
+
+```mysql -V```
 
 出現了安裝版本就代表整個安裝成功了(灑花
 
-## 可撥肥宅的踩坑筆記
+#### 可撥肥宅的踩坑筆記
 
 
 如果你跟我一樣是個三心二意的全婆俠，左擁瑪麗亞，右抱買西擴，中間Xampp建伺服器
@@ -161,10 +166,5 @@ mysql -V
 
 改掉 my.ini 裏頭的 port 別跟 MariaDB 的 port 互相衝突就好了
 
-也要將 Apache -> config.inc.php 裏頭的 port 改成跟 my.ini 相同的就行惹
+也要將 Apache -> config.inc.php 裏頭的 port 改成跟 my.ini 相同就行惹
 
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-若有多人出現更多不同的例外事件我會在這額外補充其他事件的
-感謝大家看到這邊
