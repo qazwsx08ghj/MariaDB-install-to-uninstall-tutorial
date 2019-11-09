@@ -132,6 +132,7 @@ net start 你的 Service 名子
 )
 
 再重新登入一次或許就能成功囉!
+
 [回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
 ## 第二步　建立使用者
 
@@ -472,4 +473,5 @@ https://docs.microsoft.com/zh-tw/powershell/
 希望大家看了我的教學多少會了一些東西 ㄅ噗
 
 (*´∀`)~♥
+
 [回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
