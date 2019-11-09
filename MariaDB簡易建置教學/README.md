@@ -408,9 +408,8 @@ MariaDB [(none)]>
 例如:
 在 `Python` 有寫入 `Path` 的情況下使用 `Win` + `R` 輸入 `cmd` 來開啟 Terminal
 是可以使用 `cmd` 做到簡單撰寫 `Python` 檔案的
-windows 的例子基本上預設在
+windows 的例子基本上預設在`C:\Users\user name\Desktop`
 
-```C:\Users\user name\Desktop```
 在 Terminal 中輸入
 
 ```
@@ -461,7 +460,6 @@ $Workbook = $Excel.Workbooks.Add() #開啟一個Excell
 有很多東西都可以使用 PowerShell 來達成，本魯自己也是偏向喜歡使用 Powershell的
 更多詳細的東西都在 Microsoft 的 Powershell 裡可以找到
 對這兩個都有興趣的話可以先試著看看 Powershell 功能強大也可以玩很多東西
-
 https://docs.microsoft.com/zh-tw/powershell/
 
 ### 本魯的採坑日記
