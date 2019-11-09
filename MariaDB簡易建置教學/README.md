@@ -180,11 +180,12 @@ MariaDB [(none)]>CREATE USER '文香醬老公'@'localhost' IDENTIFIED BY '123';
 Query OK, 0 rows affected (0.007 sec)
 ```
 
-```CREATE USER '文香醬老公'@'localhost' IDENTIFIED BY '123'```
+
+``` CREATE USER '文香醬老公'@'localhost' IDENTIFIED BY '123' ```
 
 應該會有問題的是這個部分的指令
 
-`'localhost' IDENTIFIED BY '123'`
+```'localhost' IDENTIFIED BY '123'```
 
 `localhost` 這個位置意思是他可以從何處來進入 Maria醬的服務
 
@@ -192,7 +193,9 @@ Query OK, 0 rows affected (0.007 sec)
 
 https://mariadb.com/kb/en/library/create-user/#host-name-component
 
-再來是 ` IDENTIFIED BY '123'`
+再來是 
+
+``` IDENTIFIED BY '123'```
 
 這句就是， Maria醬該怎麼知道這個人不是陌生人呢?
 
@@ -207,6 +210,8 @@ https://mariadb.com/kb/en/library/create-user/#host-name-component
 這是怎麼來的，和這些參數有什麼意義?
 
 ### **這部分完完全全可以跳過，但是我會恨你(X**
+
++ [我要當壞小孩的第三步連結](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%B8%89%E6%AD%A5%E8%AE%93%E4%BD%BF%E7%94%A8%E8%80%85%E6%9C%89%E6%AC%8A%E9%99%90)
 
 ### 其之二　我要怎麼知道我可以用啥
 
