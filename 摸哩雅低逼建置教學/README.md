@@ -71,5 +71,56 @@ mysql --help
 
 所以只能推薦 Google 大神教你們了**我的能力很有限TAT**
 
+再輸入完成後，基本上可以看到
 
+```
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 10
+Server version: 10.4.8-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]>
+```
+
+恭喜你/妳成功的登入囉ヽ(✿ﾟ▽ﾟ)ノ
+
+### 妳不想看到的兩種例外狀況處理法
+
+#### 其之一　帳號密碼錯了
+
+若出現了
+
+```ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)```
+
+會有很多種問題，但最基本的問題都是打錯帳號密碼
+
+如果沒有的話請參考
+http://mustgeorge.blogspot.com/2011/11/mysql-error-1045-28000-using-password.html
+
+#### 其之二　Server不知為啥沒開
+
+若出現了
+
+```ERROR 2002 (HY000): Can't connect to MySQL server on 'localhost' (10061)```
+
+有可能是妳的 MariaDB Service 不知道為啥關掉了
+
+這時候你就要啟用他
+
+使用 `Administration` 的權限去開啟 Terminal
+
+按下你的 `Win` + `R`
+
+輸入 cmd 或者 powershell 
+
+並且按下 `Ctrl` + `Shift` + `Enter` 會獲得使用 `Administration` 權限的 Terminal
+
+輸入
+
+```
+net start 你的server名子
+```
 
