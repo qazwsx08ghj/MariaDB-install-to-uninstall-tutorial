@@ -39,7 +39,7 @@
 
 ~~ 我是不知道裡面有沒有賣身契拉~~
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/pic1.jpg)
+![image](That-picture/pic1.jpg)
 
 
 ### 其之二　選擇你要安裝啥
@@ -49,7 +49,7 @@
 
 當你覺得你跟我一樣菜鼻八的時候請不要亂動這裡面的東西(´_ゝ`)
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/pic2.jpg)
+![image](That-picture/pic2.jpg)
 
 
 ### 其之三　設定最高的? 最上端的? 使用者密碼
@@ -61,12 +61,12 @@
 
 我本人是沒多在勾額外的東西，有興趣可以密我來討論下面那兩個是幹啥的
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/pic3.jpg)
+![image](That-picture/pic3.jpg)
 
 
 ### 其之四　設定 ServerName Port BufferPool PageSize
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/pic4.jpg)
+![image](That-picture/pic4.jpg)
 
 第一個會關於你的 Server 會是啥名子，基本上我們在安裝時都會維持預設，也不會隨意去改動
 
@@ -105,7 +105,7 @@ https://mariadb.com/kb/en/library/innodb-limitations/
 
 錯誤訊息會傳給 MariaDB 那邊
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/%E6%89%B9%E5%9F%83%E8%A5%BF%E4%BA%94.jpg)
+![image](That-picture/pic5.jpg)
 
 
 ### 其之六 加入Path
@@ -121,15 +121,15 @@ C:\Program Files\MariaDB 10.4\bin
 
 然後對著本機按右鍵
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/%E6%89%B9%E5%9F%83%E8%A5%BF%E5%85%AD.jpg)
+![image](That-picture/pic6.jpg)
 
 接著按內容->進階設定->進階->環境變數->在系統變數欄中找到`Path`
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/%E6%89%B9%E5%9F%83%E8%A5%BF7.jpg)
+![image](That-picture/pic7.jpg)
 
 再點個兩下進入，找空白的地方貼上 `MariaDB` 裏頭含有 `mysql.exe` 的資料夾路徑
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/%E8%BE%A3%E5%80%8B%E5%81%89%E5%A4%A7%E8%88%AA%E9%81%93%E4%B8%8A%E7%9A%84%E5%9C%96pan/%E6%89%B9%E5%9F%83%E8%A5%BF8.jpg)
+![image](That-picture/pic8.jpg)
 
 這樣就可以用 Terminal 來確認 MariaDB 有沒有安裝成功了
 
