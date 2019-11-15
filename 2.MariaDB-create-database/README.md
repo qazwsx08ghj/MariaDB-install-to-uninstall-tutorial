@@ -2,15 +2,15 @@
 
 如你所見這裡是個教你怎麼建置一個簡單的資料庫
 
-+ [第一步　開啟你的 Terminal 登入](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%B8%80%E6%AD%A5%E9%96%8B%E5%95%9F-terminal-%E7%99%BB%E5%85%A5)
++ [第一步　開啟你的 Terminal 登入](/2.MariaDB-create-database#第一步開啟-terminal-登入)
 
-+ [第二步　建立使用者](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E5%BB%BA%E7%AB%8B%E4%BD%BF%E7%94%A8%E8%80%85)
++ [第二步　建立使用者](/2.MariaDB-create-database#第二步建立使用者)
 
-+ [第三步　讓使用者有權限](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%B8%89%E6%AD%A5%E8%AE%93%E4%BD%BF%E7%94%A8%E8%80%85%E6%9C%89%E6%AC%8A%E9%99%90)
++ [第三步　讓使用者有權限](/2.MariaDB-create-database#第三步讓使用者有權限)
 
-+ [第四步　建立資料庫，使用資料庫](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E5%9B%9B%E6%AD%A5%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB%E4%BD%BF%E7%94%A8%E8%B3%87%E6%96%99%E5%BA%AB)
++ [第四步　建立資料庫，使用資料庫](/2.MariaDB-create-database#第四步建立資料庫使用資料庫)
 
-+ [第五步　Terminal 的及簡易教學區](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%BA%94%E6%AD%A5terminal-%E7%9A%84%E5%8F%8A%E7%B0%A1%E6%98%93%E6%95%99%E5%AD%B8%E5%8D%80)
++ [第五步　Terminal 的及簡易教學區](/2.MariaDB-create-database#第五步terminal-的及簡易教學區)
 
 ## 第一步　開啟 Terminal 登入
 
@@ -27,9 +27,7 @@
 
 ```'mysql' is not recognized as an internal or external command,operable program or batch file.```
 
-### 給不從頭開始看的壞小孩連結
-
-https://ppt.cc/fKXecx
++ [給壞小孩的連結](/1.MariaDB-install-tutorial#其之六-加入path)
 
 那你現在可以在任何的地方按下 `Win` + `R`
 
@@ -118,22 +116,19 @@ net start 你的 Service 名子
 
 `Service` 名子就是基於上個教學提到的，例如:
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/pic1.jpg
-)
+![image](here-has-no-picture/pic1.jpg)
 
 那指令就會像這樣:
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/pic2.jpg
-)
+![image](/here-has-no-picture/pic2.jpg)
 
 可以按下 `Ctrl` + `Alt` + `Delete` ，選擇工作管理員可以看到如下:
 
-![image](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/%E6%88%91%E6%89%8D%E6%B2%92%E6%94%BE%E5%9C%96%E7%89%87%E5%9C%A8%E9%80%99%E5%91%A2/Pic3.jpg
-)
+![image](here-has-no-picture/Pic3.jpg)
 
 再重新登入一次或許就能成功囉!
 
-[回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
+[回到最上面]()
 ## 第二步　建立使用者
 
 使用 資料庫管理系統當然要學會怎麼增加使用者R
@@ -176,7 +171,7 @@ https://mariadb.com/kb/en/library/create-user/#host-name-component
 
 ### **這部分完完全全可以跳過，但是我會恨你(X**
 
-+ [我要當壞小孩的第三步連結](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/tree/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8#%E7%AC%AC%E4%B8%89%E6%AD%A5%E8%AE%93%E4%BD%BF%E7%94%A8%E8%80%85%E6%9C%89%E6%AC%8A%E9%99%90)
++ [我要當壞小孩的第三步連結](/2.MariaDB-create-database#第三步讓使用者有權限)
 
 ### 其之二　我要怎麼知道我可以用啥
 
@@ -279,7 +274,7 @@ More imformations
 就可以得到更多的相關於 `CREATE USER`的信息囉 (*´▽`*)，上述的方法都是在完完全全Google不到的情況下可以自救的辦法
 ~~如同本魯這可撥小孩~~
 
-[回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
+[回到最上面]()
 ## 第三步　讓使用者有權限
 
 好的，使用者有了，那我們來開始建立使用者的權限吧!
@@ -334,7 +329,7 @@ MariaDB [(none)]>
 
 這樣就成功了ヽ(✿ﾟ▽ﾟ)ノ
 
-[回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
+[回到最上面]()
 ## 第四步　建立資料庫，使用資料庫
 
 現在使用者有了，使用者也有權限了，那我們就來建立和使用資料庫吧
@@ -390,7 +385,7 @@ MariaDB [(none)]>
 
 詳細 https://mariadb.com/kb/en/library/alter-database/
 
-[回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
+[回到最上面]()
 ## **注意!!　由於 Terminal 實在有太多的應用以及方法，所以只教觀念跟簡易用法**
 ## 第五步　Terminal 的及簡易教學區
 
@@ -468,4 +463,4 @@ https://docs.microsoft.com/zh-tw/powershell/
 
 (*´∀`)~♥
 
-[回到最上面](https://github.com/qazwsx08ghj/MariaDB-install-to-uninstall-tutorial/blob/master/MariaDB%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8/README.md#%E9%80%99%E8%A3%A1%E6%98%AF-mariadb-%E7%9A%84%E7%B0%A1%E6%98%93%E5%BB%BA%E7%BD%AE%E6%95%99%E5%AD%B8)
+[回到最上面]()
