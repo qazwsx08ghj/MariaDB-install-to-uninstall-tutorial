@@ -47,7 +47,6 @@ CREATE TABLE IF NOT EXISTS user_id(       #建立名稱為user_id的表單，如
 #以什麼方式分類
 PARTITION BY RANGE (id)(
     PARTITION less_than_fifty VALUES LESS THAN (50),
-    PARTITION bigger_less_than_onehundred VALUES LESS THAN (100)
 );
 ```
 
@@ -58,10 +57,22 @@ PARTITION BY RANGE (id)(
 
 連結:https://mariadb.com/kb/en/library/create-table/#column-definitions
 
-再來介紹的是表單的設定及選項，我們設定支援的儲存引擎為`InnoDB`，其實還有更多不同的儲存引擎，礙於文章會變得又臭又長的關系，
-我們交由其他的大神介紹，然後我們設定編碼方式為`utf8`，這是很常見的編碼方式，要是出來的資料變成亂碼的話可以試著用
-`ALERT TABLE`指令將編碼方式變換為`utf8`，說不定就能解決了，當然還有更多的表單設定和不同的自訂選項，有興趣依然可以藉著官方的文件來知道更多的自訂方法。
+再來介紹的是表單的設定及選項，我們設定支援的儲存引擎為`InnoDB`，其實還有更多不同的儲存引擎，礙於文章會變得又臭又
+長的關系，我們交由其他的大神介紹，然後我們設定編碼方式為`utf8`，這是很常見的編碼方式，要是出來的資料變成亂碼的話
+可以試著用`ALERT TABLE`指令將編碼方式變換為`utf8`，說不定就能解決了，當然還有更多的表單設定和不同的自訂選項，有
+興趣依然可以藉著官方的文件來知道更多的自訂方法。
 
 儲存引擎介紹連結:https://ssorc.tw/663
 
 `table_options` 連結:https://mariadb.com/kb/en/library/create-table/#table-options
+
+`PARTITION BY RANGE (id)`的意思則是以我們的 `id` 來分區，我們分類出 `less_than_fifty` 的區域，以`id`這個欄位的值來分類
+只要`id`的值小於50就會被歸類這個分區，這也只是其中一種分區方法，詳細的可以參考接下來提供的文章，但請注意你如果使用了partition_options的方法，在做表單的 `DELETE` `INSERT` `UPDATE` 等更新資料的方法時語法會有些許的改變，要注意使用。
+
+更詳細關於PARTITION的方法介紹:https://peterli.website/那些在MySQL上的分區方式/
+
+MariaDB 的其他 `PARTITION BY` 寫法:https://mariadb.com/kb/en/library/create-table/#partitions
+
+## 操控表單
+
+### 
